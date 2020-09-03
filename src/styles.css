@@ -1,0 +1,91 @@
+body{
+ height: 100%;
+ width: 100%;
+ max-height: 100%;
+ max-width: 100%;
+}
+.bounds {
+    
+    height :100%;
+    width: 100%;
+  }
+
+  .sec1 {
+    background-color: white;
+    color:white;
+    height: 50px;
+    
+  }
+  #persona{
+    width: 20%;
+    float: right;
+    margin-right: 3%;
+  }
+  .sec3 {
+  
+    height: 250px;
+  }
+  .contenedorsec2{
+    width: 50%;
+    margin-left: 15%;
+    margin-top: 5%;
+    height: 100%;
+  }
+  #solicitudPago{
+    float: left;
+  }
+  #filtro{
+    float:right ;
+  }
+  #contieneOpciones{
+    
+  }
+  
+  .opciones{
+    width: 50%;
+    height: 150px;
+    position: absolute;
+    left: 15%;
+    margin-bottom: 50px;
+  }
+ 
+  .sec3 {
+    background-color:#e6e6e6 ;
+    
+    text-transform: uppercase
+  }
+  
+  .sec1, .sec2, .sec3 {
+    padding-top:20px;
+    text-align:center
+  }
+  
+  .content {
+  
+  }
+  #contenedor {
+    background-color: #ddd;
+} 
+#notificacion{
+  position: relative;
+  left: 35%;
+}
+#persona{
+ position: relative;
+ top: -10px;
+}
+#logoCuenta{
+  vertical-align: middle;
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 25px;
+  margin-top: 20px;
+}
